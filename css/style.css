@@ -13,8 +13,17 @@ body {
   color: white;
   padding: 50px;
 }
-.container h1 {} 
-.container p {} 
-.container ul {} 
-.container li {} 
-.container div {} 
+
+.container .i-holder {}
+
+.container i {}
+
+.container h1 {}
+
+.container p {}
+
+.container ul {}
+
+.container li {}
+
+.container div {}
