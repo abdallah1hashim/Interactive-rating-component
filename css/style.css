@@ -5,6 +5,7 @@ body {
   height: 100vh;
   background-color: #141519;
   flex-direction: column;
+  font-family: 'Overpass', sans-serif;
 }
 
 .container {
@@ -22,7 +23,11 @@ body {
 
 .container p {}
 
-.container ul {}
+.container ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
 
 .container li {}
 
