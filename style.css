@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #141519;
+  flex-direction: column;
+}
+
+.container {
+  background: rgb(33, 40, 50);
+  background: linear-gradient(180deg, rgba(33, 40, 50, 1) 0%, rgba(23, 30, 40, 1) 100%);
+  color: white;
+  padding: 50px;
+}
+.container h1 {} 
+.container p {} 
+.container ul {} 
+.container li {} 
+.container div {} 
