@@ -13,22 +13,114 @@ body {
   background: linear-gradient(180deg, rgba(33, 40, 50, 1) 0%, rgba(23, 30, 40, 1) 100%);
   color: white;
   padding: 50px;
+  border-radius: 30px;
+  max-width: 350px;
 }
 
-.container .i-holder {}
+/* .main-con {
+  display: none;
+} */
 
-.container i {}
+.container .i-holder {
+  background-color: #262f38;
+  padding: 20px;
+  border-radius: 50%;
+  width: fit-content;
+  display: flex;
+  font-size: 15px;
+  color: orange;
+}
 
-.container h1 {}
+.container h1 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
 
-.container p {}
+.container p {
+  line-height: 1.6;
+
+}
 
 .container ul {
   list-style: none;
   display: flex;
   padding: 0;
+  gap: 25px;
 }
 
-.container li {}
+.container li {
+  background-color: #262f38;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
 
-.container div {}
+.submit-btn {
+  text-align: center;
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: white;
+  color: orange;
+}
+
+.container li:hover {
+  background-color: orange;
+  color: white;
+}
+
+.success-con {
+  text-align: center;
+}
+
+.user-rate {
+  background-color: #262f38;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 10px auto;
+  color: orange;
+  font-size: 12px;
+}
+
+p {
+  color: #c7c7c7;
+}
+
+.active {
+  background-color: lightgray !important;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 30px;
+    margin: 0 15px;
+  }
+
+  .container ul {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .container li {
+    width: 45px;
+    height: 45px;
+  }
+}
