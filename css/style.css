@@ -1,3 +1,7 @@
+:root {
+  --main-color: #fc7614;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -28,10 +32,10 @@ body {
   width: fit-content;
   display: flex;
   font-size: 15px;
-  color: orange;
+  color: var(--main-color);
 }
 
-.container h1 {
+.container h3 {
   font-size: 30px;
   margin-bottom: 5px;
 }
@@ -63,7 +67,7 @@ body {
 
 .submit-btn {
   text-align: center;
-  background-color: orange;
+  background-color: var(--main-color);
   color: white;
   font-weight: 700;
   margin-top: 25px;
@@ -74,11 +78,11 @@ body {
 
 .submit-btn:hover {
   background-color: white;
-  color: orange;
+  color: var(--main-color);
 }
 
 .container li:hover {
-  background-color: orange;
+  background-color: var(--main-color);
   color: white;
 }
 
@@ -92,7 +96,7 @@ body {
   padding: 5px 10px;
   border-radius: 15px;
   margin: 10px auto;
-  color: orange;
+  color: var(--main-color);
   font-size: 12px;
 }
 
