@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screen](https://github.com/abdallah1hashim/Interactive-rating-component/blob/main/design/Screenshot%202023-11-30%20025502.png)
+![screen](https://github.com/abdallah1hashim/Interactive-rating-component/blob/main/Screenshot%20.png)
 
 
 ### Links
